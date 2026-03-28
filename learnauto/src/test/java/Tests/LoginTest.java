@@ -17,6 +17,7 @@ public class LoginTest extends BaseClass {
 		LoginPage lg = new LoginPage(driver);
 		lg.login("q303", "Plasma@123");
 		System.out.println("Test");
+		System.out.println("Test");
 		Assert.fail();
 	}
 
